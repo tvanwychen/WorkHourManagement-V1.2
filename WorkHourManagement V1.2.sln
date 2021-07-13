@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkHourManagement V1.2", "WorkHourManagement V1.2\WorkHourManagement V1.2.csproj", "{8220BD57-CF08-47F2-AC0F-92980C425528}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "dtbPayPeriods", "dtbPayPeriods\dtbPayPeriods.sqlproj", "{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8220BD57-CF08-47F2-AC0F-92980C425528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8220BD57-CF08-47F2-AC0F-92980C425528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8220BD57-CF08-47F2-AC0F-92980C425528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8220BD57-CF08-47F2-AC0F-92980C425528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EADDEC-F27B-47B8-9711-FF4BB696AD0E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4D84CCF-7ED6-408F-9F2C-9AC781814043}
+	EndGlobalSection
+EndGlobal
