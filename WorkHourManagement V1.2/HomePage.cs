@@ -19,8 +19,7 @@ namespace WorkHourManagement_V1._2
 
         private void HomePage_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dtbPayPeriodsDataSet.tblPayPeriods' table. You can move, or remove it, as needed.
-            this.tblPayPeriodsTableAdapter.Fill(this.dtbPayPeriodsDataSet.tblPayPeriods);
+
             lblTDay.Text = DateTime.Now.ToString("MM-dd-yyyy");
         }
 

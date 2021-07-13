@@ -55,9 +55,11 @@ namespace WorkHourManagement_V1._2
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(131, 320);
+            this.btnAdd.Location = new System.Drawing.Point(175, 394);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(85, 31);
+            this.btnAdd.Size = new System.Drawing.Size(113, 38);
+
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -65,10 +67,13 @@ namespace WorkHourManagement_V1._2
             // 
             // btnClear
             // 
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(12, 320);
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));\
+            
+            this.btnClear.Location = new System.Drawing.Point(16, 394);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(91, 31);
+            this.btnClear.Size = new System.Drawing.Size(121, 38);
+
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -78,9 +83,12 @@ namespace WorkHourManagement_V1._2
             // 
             this.cmbBxPayPeriods.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBxPayPeriods.FormattingEnabled = true;
-            this.cmbBxPayPeriods.Location = new System.Drawing.Point(12, 29);
+
+            this.cmbBxPayPeriods.Location = new System.Drawing.Point(16, 36);
+            this.cmbBxPayPeriods.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbBxPayPeriods.Name = "cmbBxPayPeriods";
-            this.cmbBxPayPeriods.Size = new System.Drawing.Size(309, 28);
+            this.cmbBxPayPeriods.Size = new System.Drawing.Size(411, 33);
+
             this.cmbBxPayPeriods.TabIndex = 3;
             this.cmbBxPayPeriods.Text = "Select Pay Period...";
             this.cmbBxPayPeriods.SelectedValueChanged += new System.EventHandler(this.cmbBxPayPeriods_SelectedValueChanged);
@@ -89,9 +97,11 @@ namespace WorkHourManagement_V1._2
             // 
             this.lblToday.AutoSize = true;
             this.lblToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToday.Location = new System.Drawing.Point(12, 87);
+
+            this.lblToday.Location = new System.Drawing.Point(16, 107);
+            this.lblToday.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblToday.Name = "lblToday";
-            this.lblToday.Size = new System.Drawing.Size(103, 20);
+            this.lblToday.Size = new System.Drawing.Size(130, 25);
             this.lblToday.TabIndex = 4;
             this.lblToday.Text = "Todays Date:";
             // 
@@ -99,37 +109,45 @@ namespace WorkHourManagement_V1._2
             // 
             this.lblTDay.AutoSize = true;
             this.lblTDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTDay.Location = new System.Drawing.Point(121, 87);
+
+            this.lblTDay.Location = new System.Drawing.Point(161, 107);
+            this.lblTDay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTDay.Name = "lblTDay";
-            this.lblTDay.Size = new System.Drawing.Size(52, 20);
+            this.lblTDay.Size = new System.Drawing.Size(68, 25);
             this.lblTDay.TabIndex = 5;
             this.lblTDay.Text = "Today";
             // 
             // txtBxRO
             // 
             this.txtBxRO.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBxRO.Location = new System.Drawing.Point(121, 196);
+
+            this.txtBxRO.Location = new System.Drawing.Point(161, 241);
+            this.txtBxRO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxRO.MaxLength = 6;
             this.txtBxRO.Name = "txtBxRO";
-            this.txtBxRO.Size = new System.Drawing.Size(100, 26);
+            this.txtBxRO.Size = new System.Drawing.Size(132, 30);
             this.txtBxRO.TabIndex = 6;
             // 
             // txtBxLaborTime
             // 
             this.txtBxLaborTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBxLaborTime.Location = new System.Drawing.Point(121, 244);
+
+            this.txtBxLaborTime.Location = new System.Drawing.Point(161, 300);
+            this.txtBxLaborTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxLaborTime.MaxLength = 4;
             this.txtBxLaborTime.Name = "txtBxLaborTime";
-            this.txtBxLaborTime.Size = new System.Drawing.Size(100, 26);
+            this.txtBxLaborTime.Size = new System.Drawing.Size(132, 30);
             this.txtBxLaborTime.TabIndex = 7;
             // 
             // lblLaborTime
             // 
             this.lblLaborTime.AutoSize = true;
             this.lblLaborTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLaborTime.Location = new System.Drawing.Point(12, 247);
+
+            this.lblLaborTime.Location = new System.Drawing.Point(16, 304);
+            this.lblLaborTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLaborTime.Name = "lblLaborTime";
-            this.lblLaborTime.Size = new System.Drawing.Size(92, 20);
+            this.lblLaborTime.Size = new System.Drawing.Size(117, 25);
             this.lblLaborTime.TabIndex = 8;
             this.lblLaborTime.Text = "Labor Time:";
             // 
@@ -137,9 +155,11 @@ namespace WorkHourManagement_V1._2
             // 
             this.lblRoNum.AutoSize = true;
             this.lblRoNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRoNum.Location = new System.Drawing.Point(12, 199);
+
+            this.lblRoNum.Location = new System.Drawing.Point(16, 245);
+            this.lblRoNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoNum.Name = "lblRoNum";
-            this.lblRoNum.Size = new System.Drawing.Size(97, 20);
+            this.lblRoNum.Size = new System.Drawing.Size(121, 25);
             this.lblRoNum.TabIndex = 9;
             this.lblRoNum.Text = "RO Number:";
             // 
@@ -147,19 +167,25 @@ namespace WorkHourManagement_V1._2
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.ColumnHeadersVisible = false;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
             this.dateDataGridViewTextBoxColumn,
             this.rODataGridViewTextBoxColumn,
             this.laborHoursDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tblPayPeriodsBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(327, 29);
+
+            this.dataGridView1.Location = new System.Drawing.Point(509, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(445, 368);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dataGridView1.Size = new System.Drawing.Size(524, 479);
             this.dataGridView1.TabIndex = 10;
             // 
             // dtbPayPeriodsDataSet
@@ -180,35 +206,47 @@ namespace WorkHourManagement_V1._2
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.Width = 125;
             // 
             // dateDataGridViewTextBoxColumn
             // 
             this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
             this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
+
+            this.dateDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
             this.dateDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dateDataGridViewTextBoxColumn.Width = 125;
             // 
             // rODataGridViewTextBoxColumn
             // 
             this.rODataGridViewTextBoxColumn.DataPropertyName = "RO";
             this.rODataGridViewTextBoxColumn.HeaderText = "RO";
+
+            this.rODataGridViewTextBoxColumn.MinimumWidth = 6;
             this.rODataGridViewTextBoxColumn.Name = "rODataGridViewTextBoxColumn";
             this.rODataGridViewTextBoxColumn.ReadOnly = true;
+            this.rODataGridViewTextBoxColumn.Width = 125;
             // 
             // laborHoursDataGridViewTextBoxColumn
             // 
             this.laborHoursDataGridViewTextBoxColumn.DataPropertyName = "LaborHours";
             this.laborHoursDataGridViewTextBoxColumn.HeaderText = "LaborHours";
+
+            this.laborHoursDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.laborHoursDataGridViewTextBoxColumn.Name = "laborHoursDataGridViewTextBoxColumn";
             this.laborHoursDataGridViewTextBoxColumn.ReadOnly = true;
+            this.laborHoursDataGridViewTextBoxColumn.Width = 125;
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 409);
+            this.ClientSize = new System.Drawing.Size(1045, 503);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblRoNum);
             this.Controls.Add(this.lblLaborTime);
@@ -219,14 +257,8 @@ namespace WorkHourManagement_V1._2
             this.Controls.Add(this.cmbBxPayPeriods);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnAdd);
-            this.Name = "HomePage";
-            this.Text = "HomePage";
-            this.Load += new System.EventHandler(this.HomePage_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtbPayPeriodsDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblPayPeriodsBindingSource)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 
         }
 
