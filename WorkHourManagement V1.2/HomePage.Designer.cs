@@ -67,7 +67,7 @@ namespace WorkHourManagement_V1._2
             // 
             // btnClear
             // 
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));\
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             
             this.btnClear.Location = new System.Drawing.Point(16, 394);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
