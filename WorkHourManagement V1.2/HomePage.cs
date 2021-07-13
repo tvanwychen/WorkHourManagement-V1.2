@@ -19,6 +19,7 @@ namespace WorkHourManagement_V1._2
 
         private void HomePage_Load(object sender, EventArgs e)
         {
+
             lblTDay.Text = DateTime.Now.ToString("MM-dd-yyyy");
         }
 
